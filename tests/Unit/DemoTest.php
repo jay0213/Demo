@@ -10,7 +10,7 @@ class DemoTest extends TestCase
 {
     public function testSuperDemo()
     {
-        $result = new DTC();
-        $this->assertArrayHasKey("fourth", ['fourt1h']);
+        $res = new DTC();
+        $this->assertArrayHasKey("first", $res->DemoTest());
     }
 }
