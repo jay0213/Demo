@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class DemoTestController extends Controller
 {
-    public function DemoTest(){
+    public function Demo(){
         $A = array("first", "second", "third");
         return $A;
     }
